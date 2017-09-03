@@ -1,0 +1,21 @@
+8/28/2017
+Over the last few classes, we went over designing database structures through tables
+in Excel/Google Sheets. I realized the disadvantages of using such methods. A fully-
+fledged database saves both the data attributes and necessary algorithms for data
+operations and querying. Excel, when presenting data in different formats for different
+purposes, has many redundancies and requires a lot of manual work.
+
+8/31/2017
+Today I learned about specific attributes for data in databases.
+Attributes: properties of data
+Simple vs Composite (multiple related simple attributes)
+Single-Valued vs Multi-Valued
+Stored vs Derived
+Complex: collection of attributes to create an abstract attribute (usually derived)
+Null Value: purposeful empty value (Null, 99, -1...)
+Entity
+Entity Type
+Entity Set
+All entities must have a key attribute: ID.
+Value Sets (Domain): limits of an entity, ex: 0-99
+Data Types

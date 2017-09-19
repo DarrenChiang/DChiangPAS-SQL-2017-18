@@ -19,3 +19,27 @@ Entity Set
 All entities must have a key attribute: ID.
 Value Sets (Domain): limits of an entity, ex: 0-99
 Data Types
+
+9/4/2017
+
+9/7/2017
+
+9/11/2017
+
+9/15/2017
+We started playing a game designed by Mr. Johnson's friend where we recieved random
+cards (building blocks) to build a database system. We recieved a random client, started
+with an entity and single relationship, and recieved sets of random cards (attributes,
+entities, relationships, extenders, etc.). The scoring system was based on how many cards
+we were able to use while still relevantly defining the database system.
+
+9/18/2017
+We learned about organizing the ER model into more a progam-like structure that bears
+similarities to objects and functions in traditional programming languages. Entities and
+relationships hold attributes in parenthesis and can also hold foreign attributes (other 
+entities' IDs). One exception from the ER diagram concerns the multivalued attribute.
+Because the parenthesis-parameter format is already like a multivalued attribute, the
+latter deserves its own line/table/category (like entities or relationships) while holding its
+own ID and its owner's ID.
+We also continued on our database modeling game and played a little Sushi Go at the
+end of class.

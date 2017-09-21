@@ -21,10 +21,21 @@ Value Sets (Domain): limits of an entity, ex: 0-99
 Data Types
 
 9/4/2017
+We practiced working with the ER model on a hotel database. We struggled with organizing
+the entities as we (I) didn't exactly understand the structure of a hotel management system.
+Mr. Sawyer came in class today and provided some information on hotel accounting and the
+front desk. The overall by the end of the class felt unsatisfactory.
 
 9/7/2017
+We reviewed and clarified the definition and usage of weak entities and identifying relationships
+(as such was the focus of the previous homework). The class played a vocabulary game for
+the database terms, but the usefulness of what ensued is debatable.
 
 9/11/2017
+We played jeapardy in class to further strengthen our grasp on database terms and concepts.
+Vocabulary questions happened to be simple while example questions that asked us to build a 
+database were more complex. I fumbled at some of the questions regarding the history of
+databases. All teams maintained a relatively competitive score by the end of class.
 
 9/15/2017
 We started playing a game designed by Mr. Johnson's friend where we recieved random
@@ -43,3 +54,17 @@ latter deserves its own line/table/category (like entities or relationships) whi
 own ID and its owner's ID.
 We also continued on our database modeling game and played a little Sushi Go at the
 end of class.
+
+9/21/2017
+Today, we were taught about "directional" relationships. "Is a" relationship clarifies an entity
+to something else, which can be a generalization or specialization. Trucks and SUVs can be
+generalized into a car while the inverse is a specialization. Specialization usually goes from a
+single entity to multiple branching entities. "Is a" relationships can be drawn as a perfect
+circle or a triangle. Specialization can be a double line between relationships or an anchor-like
+mark towards the specialized entities. "Is a" relationships are not to be used excessively. They
+can easily be relegated to attributes if a database requires more attributes and "actual"
+relationships. "Is a" is only necessary when the specialized entities share obvious types of
+attributes while having exclusive ones. Both trucks and SUVs have wheels, but only trucks
+should worry about load capacity while SUVs may care more about top speed. We tried mapping
+out an ER diagram for a ship captain using all we learned from the past after struggling with a
+discount system issue brought up by the STUCO store.

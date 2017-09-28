@@ -67,4 +67,30 @@ relationships. "Is a" is only necessary when the specialized entities share obvi
 attributes while having exclusive ones. Both trucks and SUVs have wheels, but only trucks
 should worry about load capacity while SUVs may care more about top speed. We tried mapping
 out an ER diagram for a ship captain using all we learned from the past after struggling with a
-discount system issue brought up by the STUCO store.
+discount system issue brought up by the STUCO store. Also, in cardinals, N = numeral while
+M = maximum.
+
+9/25/2017
+We tried making relationship models with "is a"  relationships. We designated the purpose
+and functionalities of a "client" and swapped "clients" with each other as a challenge. We then
+had to design the models based on the specifications made by each other. I specified a
+database for a radio host and had to design a database for a travel agent.
+
+9/28/2017
+Functional Dependencies: A + B => C (date of birth + current date = age)
+
+Trivial: A => A (we can tell ID by looking at ID)
+A + B => C + A, A is useless as a resultant.
+
+Non-Trivial: A => B (new information/worthwhile)
+ID can tell name/address. Address cannot tell name and vice versa.
+
+Transitive: A => B, B => C, B =/> A (book => author => gender, but author =/> book reliably)
+Therefore, A => C while B =/> A.
+
+Multi-Valued: mA =>> mB
+
+Normalized Table: reduced redundancies, linked (derived) attributes (less values to represent more)
+1NF: No multi-values.
+2NF: Everything ID'ed/No partial dependencies.
+3NF: No transitives.

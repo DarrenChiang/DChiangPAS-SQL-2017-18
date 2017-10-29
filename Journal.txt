@@ -94,3 +94,42 @@ Normalized Table: reduced redundancies, linked (derived) attributes (less values
 1NF: No multi-values.
 2NF: Everything ID'ed/No partial dependencies.
 3NF: No transitives.
+
+10/2/2017
+We reviewed the various degrees of normalization. I'm starting to question how much of what I 
+believe to be the normalization levels to actually be correct.
+If an attribute derives another, it acts like an ID right? Do we logically go from one another, or is
+it arbitrary?
+
+10/5/2017
+There was a pop quiz because Mr. Ting said that some student(s) plagarized. Problem is, I don't know
+if it is me. I did not plagarize, but I fear that my answers may be unintentionally similar (20% minimum?).
+It turns out that I don't remember the terms well, so I didn't get many points from the quiz.
+Afterwards, the class reviewed normalization once again and we were told to turn a database (pizza?)
+into BCNF form.
+
+10/12/2017
+We spent the entire class talking about Ch10 hw. It was dreadful. I hate normalization and fear what's to
+come.
+
+10/16/2017
+Apparently, there are other factors to consider for normalization and denormalization. In big data analysis,
+sometimes approximate data is used instead of actual data to protect the privacy of individuals in a survey.
+The overall bell curve should remain similar. A denormalized table means that servers can perform 
+operations easier because there are less tables to work with. A normalized table means that less errors
+will occur.
+
+10/19/2017
+We used SQLfiddle! We did the basic stuff: creating tables, queries, etc...
+Turns out that insert and append cannot be used in the querying section of SQLfiddle.
+
+10/23/2017
+More SQLfiddle! Now we use the relation schema of a restaurant featuring us as customers and fellow
+volunteers from Python as employees. We did stuff like assigning keys, appending and inserting, and
+other "challenges."
+
+10/25/2017
+More SQLfiddle with the same database! We focused on transitive queries. So it's like deriving information
+from keys (SELECT's on top of SELECT's). More challenges too. Mr. Ting wants us to suffer from the "manual"
+way of inserting information in not-so-normalized tables. He says that things will be much faster when we do
+coding.

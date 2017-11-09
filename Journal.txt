@@ -133,3 +133,26 @@ More SQLfiddle with the same database! We focused on transitive queries. So it's
 from keys (SELECT's on top of SELECT's). More challenges too. Mr. Ting wants us to suffer from the "manual"
 way of inserting information in not-so-normalized tables. He says that things will be much faster when we do
 coding.
+
+10/30/2017
+We did more SQLfiddle. We ended the class with the challenge of doing a query from two tables.
+
+11/2/2017
+Mr. Ting was sick and couldn't speak much, so we spent the class doing DataCamp.
+
+11/6/2017
+Design
+Functionality: must work
+Usability: users must be able to use it, design to the user
+Mechanics Dynamics Aesthetics (MDA): balance mechanics (functionality) with aesthetics (user perspective)
+Simplicity: reduce redundency, shorten steps, make it idiot proof
+Contrast: different things should look different (consider emphasis/functionality)
+Repetition: similar things should look similar
+Alignment: line things up (flow, aesthetics, direction, focus, CONSISTENCY)
+Proximity: group similar things together, space different things apart
+
+11/9/2017
+For today's SQLfiddle challenge, I tried to systematically add data from one table to another, with new information
+fitting all corresponding columns and new ID's properly generated. If I did not know how many employees there
+are, then I would have to "loop" the process (to be learned).
+Next, I did more DataCamp.

@@ -1,0 +1,107 @@
+Use <!--Comment-->
+
+<tag>content</tag>
+
+tags:
+
+head <head>: meta-data (properties) 
+<title>Shows up on tabs</title>
+
+
+paragraph <p>
+<p id="id" class="class" title="mouse hover info">content</p>
+
+
+heading <h1-6>
+<h1> to <h6> headings (1 = biggest, 6 = smallest)
+
+
+Use styles for both headings and paragraphs:
+
+CSS Inline = <tag style="property:value"
+
+<element style="background-color:____; color:____; font-family:____; font-size:____; text-align:____; border:__px solid ____;...">
+content
+</element>
+
+
+CSS Internal = <style> element {property:value} </style>
+Note: element can refer to a specific element instance through element#id if the element instance was given an id attribute. 
+EX: <style> p#test {} </style> refers to <p id="test"></p>
+Similarly, the class attribute for an element specifies the type of stylesheet it will use.
+EX: <p class="class"></p> refers to <style> p.class {} </style>
+
+<style>
+element {background-color:___; color:___; font-family:____; font-size:____;...}
+</style>
+
+<element>
+content
+</element>
+
+CSS External = <link rel="name" href="style_sheet.css">
+
+
+Color can be defined by:
+RGB = rgb(r, g, b)
+HEX = #______
+HSL = hsl(value, percent, percent)
+RGBA = rgba(r, g, b, a)
+HSLA = hsla(value, percent, percent, a)
+
+
+CSS Properties:
+background-color
+color
+font-family
+font-size
+text-align
+border
+padding
+margin
+
+
+Other tags for text in headings and paragraphs:
+<br> line break (single tag)
+<hr> separate, break (single tag)
+<b> bold text
+<strong> important text
+<i> italic text
+<em> emphasized text
+<mark> marked text (highlighter effect)
+<small> small text
+<del> deleted text (crossed out)
+<ins> inserted text (underlined)
+<sub> subscript text (lower)
+<sup> superscript text (higher, exponent)
+<q> short quotation
+<blockquote cite="citation"> long quotation (indented)
+<address> address formatting
+<abbr title="title"> abbreviation
+<cite> title formatting
+<bdo dir="rtl"> changes text direction
+
+
+link <a>
+<a href="url" target="where to open">link text or image</a>
+
+Note: href can refer to id's to go to specific elements on a page.
+EX: <p id="bookmark"></p> <a href="#bookmark">link</a>
+
+
+image <img>
+<img src="source" alt="description" width="width" height="height" style="float:left or right">
+
+Alternatively, use style="width:___px; height:___px" for size. (It is better to use styles.)
+
+work map attribute: usemap = "#mapid"
+<map name="mapid">
+<area shape="shape" coords="_,_,_,_" alt="description" href="link">
+</map>
+
+
+<table style="width:xxx%">
+	<tr>
+		<td></td>
+	</tr>
+</table>

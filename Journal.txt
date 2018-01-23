@@ -156,3 +156,52 @@ For today's SQLfiddle challenge, I tried to systematically add data from one tab
 fitting all corresponding columns and new ID's properly generated. If I did not know how many employees there
 are, then I would have to "loop" the process (to be learned).
 Next, I did more DataCamp.
+
+11/13/2017
+We practiced joins in SQLfiddle and further exercises in DataCamp. I was fairly caught up in Datacamp.
+
+11/16/2017
+We specified the different types of joins with further practice. Venn Diagrams were used to compare and define the
+different types of joins.
+
+11/23/2017
+With half the class gone, we played a number guessing game where we used the process of elimination and the most basic
+probability to guess the number of cards. It was actually fun.
+
+11/27/2017
+We did more Datacamp exercises.
+
+11/30/2017
+This is first we work with LibreOffice. We learned that its package and contents are similar to things from Microsoft
+Office. LibreOffice includes database files, docs, drawings, calcs, and such. I first tried installing the Windows
+version in a zipped file provided by Mr. Ting, but it could not detect a JRE even after I installed a different one. I
+verified that I already had one, but I had to do more testing at home.
+
+12/4/2017
+Chapter 6 was supposedly due today. It was hard, but I was somewhat miffed by the "extension" where we were able to ask
+for answers during class. Makes me really ponder my sleep schedule and habits.
+
+12/7/2017
+First LibreOffice project or work. We had to make a simple database by copying stuff from an existing database we worked on.
+I was able to fix the JRE issue by directly installing LibreOffice from their website, but I encountered a new issue. I could
+not copy and paste data from a spreadsheet into my Libreoffice tables. I had to manually input data. We later had to work on
+an actual database based on our restaurant project.
+
+12/11/2017
+At the end, I still could not copy and paste data onto LibreOffice tables. Luckily for me, there is not a lot of data in
+my restaurant database. Apparently, it is important to specify table properties beforehand, as they cannot be changed after
+setting relations or adding data. I learned this the hard way through autovaluing and the importance of formatting/setting
+defaults later on.
+
+12/14/2017
+I realized that I had to start over and create new tables from scratch. I then tried out queries to generate data that may
+be useful for restaurants, such as daily earnings. The design view (or the default) way to create queries was doable but not
+intuitive. I liked SQL view more where I could apply what I learned from all the exercises from Datacamp, Codecademy, and
+SQLfiddle.
+
+12/18/2017
+I had to try to deal with learning macros for somewhat complex operations, but it involved learning a new language. I am
+slightly frustrated by the fact that I may not use any more of the SQL language itself at all.
+
+12/20/2017
+I decided that my database needed revising, so I started anew. Afterall, I forgot to optimize my database for practical use.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 6 - Math Functions</title>
+<script>
+var ans = Math.floor(Math.random() * 6 + 1);
+do {
+	var user = Math.round(parseInt(prompt("Guess a number from 1 to 6:", 1)));
+	if(user > ans)
+		alert("too high");
+	else if(user < ans)
+		alert("too low");
+	else
+		alert("you guessed it");
+}
+while(user != ans);
+
+</script>
+</head>
+<body>
+<h1>Assignment 6 - Math Functions</h1>
+<a href="page7.html">Assignment 7 - Arrays</a>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 3</title>
+<script>
+var var4 = parseInt(localStorage.getItem("var1")) + parseInt(localStorage.getItem("var2"));
+</script>
+</head>
+<body>
+<h1>Assignment 3</h1>
+<script>
+if(var4 < 0)
+	document.write("number is too low");
+if(var4 > 100)
+	document.write("number is too high");
+if(var4 >= 86 && var4 <= 100)
+	document.write("great mark");
+if(var4 == 50 || var4 == 60 || var4 == 67)
+	document.write("just on edge");
+document.write("<br>");
+if(confirm("Is the total really " + var4))
+	document.write("Math Confirmed");
+else
+	document.write("Math Incorrect");
+</script>
+<br>
+<a href="page4.html">Assignment 4 - Loops</a>
+</body>
+</html>

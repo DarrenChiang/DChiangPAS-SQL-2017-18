@@ -205,3 +205,30 @@ slightly frustrated by the fact that I may not use any more of the SQL language 
 
 12/20/2017
 I decided that my database needed revising, so I started anew. Afterall, I forgot to optimize my database for practical use.
+
+1/8/2018
+
+1/11/2018
+
+1/15/2018
+
+1/18/2018
+
+1/22/2018
+
+1/25/2018
+
+2/1/2018
+I learned a bit about how Javascript integrates with HTML. I practiced some functions that allowed for direct interaction, such as
+element.innerHTML and document.getElementById("id").
+The <button> has onclick="function()" that can call a function in the <head> on action.
+
+2/5/2018
+Today I focused on learning JavaScript. It is a bit like Python with how flexible it is with declaring variables and objects. Its
+objects are much like dictionaries from Python. I learned how to create methods and constructors for objects. Mr. Ting says that
+the placement of JavaScript in html code is weird in many people's codes. It's probably best to place them in <head> when declaring
+functions for later use (like buttons) and near respective elements in <body> for specific scripts (one time use?).
+
+2/8/2018
+Since the tables in the classroom were moved to the new campus, we had to made do with a make-shift table. We spent most of this
+class outside at a restaurant learning about the process of creating a restaurant database with actual examples.

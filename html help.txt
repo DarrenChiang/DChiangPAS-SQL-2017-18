@@ -1,5 +1,10 @@
 Use <!--Comment-->
 
+<!DOCTYPE html>
+<html>
+</html>
+
+
 <tag>content</tag>
 
 tags:

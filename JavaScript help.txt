@@ -1,0 +1,81 @@
+<script>
+stuff;
+//comments
+</script>
+
+var to declare everything.
+
+Note:
+Keep functions in <head> and specific scripts near respective elements.
+
+
+Declaring Function in <head>
+
+function name(parameter1, parameter2...)
+{
+	
+}
+
+
+Objects
+
+var name = {property: value, property: value...}
+
+Accessing values:
+name.property or name["property"]
+
+You can add new properties and respective values with name.new_property = new value;
+
+Adding method:
+name.method = function() {stuff;};
+
+Use name.method() to call the function and name.method to return function script.
+
+Use "this" to refer to object instance. (this.property)
+
+Constructors
+
+function Person(first, last, age)
+{
+	this.firstName = first;
+	this.lastName = last;
+	this.age = age;
+	this.add_new_stuff = "arbitrary value";
+}
+
+You can add to existing objects, but not the constructor like Person.add_new_stuff = "arbitrary value"
+outside the constuctor.
+
+
+Arrays
+
+var arr = [v1, v2, v3...]
+arr[0] is v1
+
+Properties/Methods
+arr.length
+arr1.concat(arr2) adds arr2 to arr1
+
+
+
+Loops: similar to others (for/while loops)
+
+
+Common JavaScript Output
+
+element.innerHTML = x
+Edits html text between <element>text</element> to x.
+
+document.getElementById(x)
+Returns element with id x.
+
+document.write(x)
+Displays x. When html already fully loaded, executing this will delete all loaded html.
+
+window.alert(x)
+Displays a small window with x in it.
+
+console.log()
+Display console for debugging purposes.
+
+

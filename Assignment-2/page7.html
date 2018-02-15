@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 7 - Arrays</title>
+<script>
+var arr = new Array;
+for(var x = 0; x < 5; x++)
+	arr[x] = "string" + (x + 1);
+</script>
+</head>
+<body>
+<h1>Assignment 7 - Arrays</h1>
+<script>
+for(var x = 0; x < arr.length; x++)
+	document.write(arr[x] + " ");
+function func(arr) {
+	var user = prompt("Enter a string into the array:", "temp");
+	var inArr = false;
+	for(var x = 0; x < arr.length; x++) {
+		if(user == arr[x]) {
+			inArr = true;
+			alert("This string is already in the array.");
+			x = arr.length;
+		}
+	}
+	if(!inArr) {
+		arr.push(user);
+		var newArr = "";
+		for(var x = 0; x < arr.length; x++)
+			newArr += arr[x] + " ";
+		alert(newArr);
+	}
+}
+</script>
+<img src="http://www.ihatequickquestions.com/wp-content/uploads/2013/10/string.png" onclick="func(arr)">
+<a href="page8.html">Assignment 8 - DOM</a>
+</body>
+</html>

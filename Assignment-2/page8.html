@@ -3,12 +3,60 @@
 <head>
 <title>Assignment 8 - DOM</title>
 <script>
-
+function click1() {
+	window.open("page7.html", "_self");
+}
+function click2() {
+	alert("Screen Size: " + screen.width + ", " + screen.height + "\nURL: " + window.location.href);
+}
+function click3() {
+	document.getElementById("pic3").setAttribute("src", "https://imperialtalker.files.wordpress.com/2016/03/younglings.jpg?w=640");
+	document.getElementById("pic3").setAttribute("style", "width:50%;height:50%");
+	document.getElementById("desc3").innerHTML = "This is dark."
+}
+function click4() {
+	var arr = document.images;
+	for(var x = 0; x < arr.length; x++) {
+		arr[x].style.width = "50px";
+	}
+	alert("The images are added to an array and then resized accordingly. I don't know how you want me to show it though.");
+	document.getElementById("pic4").style.visibility = "hidden";
+}
 </script>
 </head>
 <body>
 <h1>Assignment 8 - DOM</h1>
+<table>
+	<tr>
+		<td>
+			<img id="pic1" src="https://ih1.redbubble.net/image.44382635.7168/flat,800x800,075,f.u1.jpg" style="width:25%;height:25%" onclick="click1()">
+		</td>
+		<td>
+			<img id="pic2" src="https://pbs.twimg.com/profile_images/920801559406972929/-qjbt3QZ_400x400.png" onclick="click2()">
+		</td>
+		<td>
+			<img id="pic3" src="http://vignette3.wikia.nocookie.net/starwars/images/5/52/SorsBandeam.png/revision/latest?cb=20130206000500" style="width:25%;height:25%" onclick="click3()">
+		</td>
+		<td>
+			<img id="pic4" src="https://i.imgur.com/XBpsBBI.png" style="width:50%;height:50%" onclick="click4()">
+		</td>
 
+	</tr>
+	<tr>
+		<td>
+			<p id="desc1">Shark</p>
+		</td>
+		<td>
+			<p id="desc2">Frog</p>
+		</td>
+		<td>
+			<p id="desc3">Innocent little youngling</p>
+		</td>
+		<td>
+			<p id="desc4">Putin and body pillow</p>
+		</td>
+	</tr>
+</table>
 <a href="page9.html">Assignment 9 - Pet Rock</a>
 </body>
 </html>

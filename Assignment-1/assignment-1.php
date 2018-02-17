@@ -44,7 +44,7 @@ body {font-family: Helvetica;}
 				<li>Maecenas tristique orci ac sem</li>
 				<li>Duis ult ricies pharetra magnaonec</li>
 			</ul>
-		</th>
+		</td>
 		<td rowspan="3">
 			<p>
 				<b>Lorem ipsum dolor sit amet consect</b><br>
@@ -59,7 +59,7 @@ body {font-family: Helvetica;}
 				pharetra magna. Donec acumn male suada orci.<br>
 				Donec sit amet eros.
 			</p>
-		</th>
+		</td>
 		<td>
 			<p>
 				AUG 18, 2012<br>

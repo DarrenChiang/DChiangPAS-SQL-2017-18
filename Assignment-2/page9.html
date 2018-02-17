@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 9 - Pet Rock</title>
+<script>
+var user = {}
+user.getName = function() {
+	this.name = prompt("Enter your name: ");
+}
+user.getAge = function() {
+	do {
+		this.age = prompt("Enter your age: ");
+	}
+	while(isNan(this.age));
+}
+function revertImage() {
+	document.getElementById("petrock").setAttribute("src", "rock.jpg");
+}
+function onClick() {
+	alert("I like the attention, " + user.name);
+	document.getElementById("petrock").setAttribute("src", "happyrock.jpg");
+	setTimeout(revertImage, 2000);
+}
+</script>
+</head>
+<body>
+<h1>Assignment 9 - Pet Rock</h1>
+<img id="petrock" src="rock.jpg" onclick="onClick()">
+<script>
+user.getName();
+user.getAge();
+</script>
+<br>
+<a href="page10.html">Assignment 10 - Forms</a>
+</body>
+</html>

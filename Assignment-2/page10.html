@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 10 - Forms</title>
+<script>
+function onBlur() {
+	document.forms["myForm"]["ans"].value = parseInt(document.forms["myForm"]["num1"].value) + parseInt(document.forms["myForm"]["num2"].value);
+}
+function regClick() {
+	if(document.forms["myForm"]["gender"].value == "male") {
+		document.getElementById("img1").setAttribute("src", "http://pngimages.net/sites/default/files/blue-male-symbols-png-image-100562.png");
+	}
+	else if(document.forms["myForm"]["gender"].value == "female") {
+		document.getElementById("img1").setAttribute("src", "https://cdn4.list25.com/wp-content/uploads/2017/05/18-610x610.png");
+	}
+}
+function onChange() {
+	var x = document.forms["myForm"]["drop"].value;
+	var pic = document.getElementById("img2");
+	var up = document.getElementById("top");
+	var down = document.getElementById("bottom");
+	if(x == "op1") {
+		up.innerHTML = "Froggo";
+		pic.setAttribute("src", "https://proprofs-cdn.s3.amazonaws.com/images/games/user_images/misc/90056108232.jpg");
+		down.innerHTML = "Froggo";
+	}
+	else if(x == "op2") {
+		up.innerHTML = "Cat";
+		pic.setAttribute("src", "https://www.petmd.com/sites/default/files/what-does-it-mean-when-cat-wags-tail.jpg");
+		down.innerHTML = "Cat";
+	}
+	else if(x == "op3") {
+		up.innerHTML = "Doggo";
+		pic.setAttribute("src", "https://s7d2.scene7.com/is/image/PetSmart/PB1201_STORY_CARO-Authority-HealthyOutside-DOG-20160818?$PB1201$");
+		down.innerHTML = "Doggo";
+	}
+}
+</script>
+</head>
+<body>
+<h1>Assignment 10 - Forms</h1>
+<form id="f" name="myForm">
+	Number 1: <br>
+	<input type="text" name="num1"> <br>
+	Number 2: <br>
+	<input type="text" name="num2" onblur="onBlur()"> <br>
+	Answer: <br>
+	<input type="text" name="ans"> <br>
+	<input type="radio" name="gender" value="male" checked> Male <br>
+	<input type="radio" name="gender" value="female"> Female <br>
+	<select name="drop" onchange="onChange()">
+		<option value="op1">Frog</option>
+		<option value="op2">Cat</option>
+		<option value="op3">Dog</otpion>
+	</select>
+	<img id="img1"> <br>
+	<p id="top"></p> <br> 
+	<img id="img2"> <br>
+	<p id="bottom"></p> <br>
+	<button id="reg" type="button" onclick="regClick()">Regular</button> <button id="reset" type="button" onclick="location.reload()">Reset</button>
+</form>
+</body>
+</html>

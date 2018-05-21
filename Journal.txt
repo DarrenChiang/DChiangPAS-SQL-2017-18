@@ -244,3 +244,50 @@ assignment.
 Today, we went out to eat at the restaurant Section 16 to make an inventory ER model for it. I think I ate too much. I took a simple
 approach to the ER model. It had to keep inventory of all sorts of supplies while also being capable of handling employee information
 and transactions.
+
+3/12/2018
+We took a mini-quiz where we had to answer 3 questions from a website. I struggled a lot with the most arbitrary, frustrating syntax and
+limitations in Javascript where no other languages would have a problem.
+
+3/15/2018 - 4/2/2018
+Worked on sorting, cleaning, and checking the PAS Science Inventory.
+
+4/19/2018
+I searched up various ways of integrating PHP for the file infrastucture of the Science Inventory website.
+
+4/23/2018
+I downloaded and transitioned from Github to this FireZilla thing.
+
+4/26/2018
+I reviewed PHP and found online scripts for how to connect to an SQL database and query. There are syntax errors that I have yet to pinpoint.
+
+4/30/2018
+I relearned html forms to connect to PHP scripts to integrate the search function into the SQL query.
+
+5/3/2018
+I typed out some system for getting a variable and slotting into the query for defining the "WHERE" of the search.
+
+5/7/2018
+I do believe that I got the connection working. Testing meant that no error popped up while connecting. For some reason, the script isn't
+returning results from the query. Either the SQL command has wrong syntax or the issue lies in the printing logic.
+
+5/10/2018
+Finally got a working script of querying for all items in the Science Inventory with the help of others. I managed to get it displayed on
+a blank page. In order to properly format it, we divided up the data to put in pre-existing tables created through html. Shaun integrated
+the search function through forms to pass data for querying. He got the Inventory website functional from there.
+
+5/14/2018
+I was taking an AP test during this class.
+
+5/16/2018
+I was taking an AP test during this class.
+
+5/21/2018
+We learned about some basic "rules" of design and "do's and don't's" of coloring. Basically, use what other templates. Never more than
+six colors. Never use 255 colors (way too bright/jarring) for background. Don't use pure black either. Contrasting is impossible and ugly 
+when these are used. Light should always goes from top to down.
+Reminder of FU KISS CRAP:
+reduce/keep simple/stupid-proof/functional
+
+5/24/2018
+Took a 20 question test based off the actual license test.
